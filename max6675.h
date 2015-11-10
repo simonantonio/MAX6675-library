@@ -9,7 +9,7 @@
 
 class MAX6675 {
  public:
-  MAX6675(int8_t SCLK, int8_t CS, int8_t MISO);
+  MAX6675(int8_t SCLK, int8_t ChipSelect, int8_t miso_pin);
 
   double readCelsius(void);
   double readFahrenheit(void);
