@@ -1,3 +1,5 @@
+#ifndef _MAX6675_H_
+#define _MAX6675_H_
 // this library is public domain. enjoy!
 // www.ladyada.net/learn/sensors/thermocouple
 
@@ -19,3 +21,5 @@ class MAX6675 {
   int8_t sclk, miso, cs;
   uint8_t spiread(void);
 };
+
+#endif //_MAX6675_H_
